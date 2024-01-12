@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <!-- bootstrap links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="/img/SwebsLogo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto px-5">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid banner">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="content text-start pl-5 text-white">
+            <h3 class="fs-1 text-uppercase animated zoomInUp" id="cont">
+              Welcome To
+            </h3>
+            <p class="text-uppercase animated bounceInLeft">Swebs Institute</p>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-primary animated slideInLeft"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Apply Now
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Swebs Application Form
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <form class="animated bounceInDown">
+                      <label for="name">Name</label>
+                      <input
+                        type="text"
+                        class="form form-control mb-3"
+                        name=""
+                        id=""
+                      />
+                      <label for="name">Email</label>
+                      <input
+                        type="text"
+                        class="form form-control mb-3"
+                        name=""
+                        id=""
+                      />
+                      <label for="Mesagge">Message</label>
+                      <textarea
+                        name=""
+                        class="form form-control"
+                        id=""
+                        cols="20"
+                        rows="5"
+                      ></textarea>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About -->
+    <div class="container p-5">
+      <h3 class="text-center display-4 pb-5 animated slideInUp">About Us</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <p class="p-5 about animated slideInLeft">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            saepe voluptatum quisquam repudiandae dolores sint a atque repellat
+            !
+          </p>
+        </div>
+        <div class="col-md-6 pt-5">
+          <img
+            class="text-start animated slideInRight"
+            src="/img/undraw_team_work_k80m.png"
+            alt=""
+            width="350"
+          />
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="container p-5">
+      <h3 class="text-center display-5 pb-5">Send Us A Message</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/undraw_team_work_k80m.png" alt="" width="400" />
+        </div>
+        <div class="col-md-6 pb-5 mb-3">
+          <form class="animated bounceInDown">
+            <label for="name">Name</label>
+            <input type="text" class="form form-control" name="" id="" />
+            <label for="name">Email</label>
+            <input type="text" class="form form-control" name="" id="" />
+            <label for="Mesagge">Message</label>
+            <textarea
+              name=""
+              class="form form-control"
+              id=""
+              cols="20"
+              rows="5"
+            ></textarea>
+            <button class="mt-3 btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container-fluid bg-dark footer">
+        <div class="row text-white">
+          <div class="col-4">
+            <p><a href="">Home</a></p>
+            <p><a href="">About</a></p>
+            <p><a href="">Contact</a></p>
+            <p><a href="">Blog </a></p>
+          </div>
+          <div class="col-4">
+            <p><a href="">Facebook</a></p>
+            <p><a href="">Instagram</a></p>
+            <p><a href="">Google</a></p>
+            <p><a href="">Twitter </a></p>
+          </div>
+          <div class="col-4">
+            <img src="img/SwebsLogo.png" width="100vh" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
